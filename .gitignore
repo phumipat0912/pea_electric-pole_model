@@ -1,0 +1,7 @@
+venv/
+runs/
+__pycache__/
+*.pyc
+*.pt
+อุปกรณ์เสาไฟฟ้า-1/
+datasets/
