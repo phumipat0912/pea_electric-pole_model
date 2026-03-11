@@ -1,3 +1,3 @@
-test.py ทดสอบโมเดลที่เทรนมา (best.pt) \
+test.py ทดสอบโมเดลที่ train มา (best.pt) \
 train.py ใช้ train YOLOv11 จาก roboflow \
-best.pt โมเดลที่ train เสร็จแล้ว
+best.pt โมเดลที่ train จาก train.py เสร็จแล้ว
