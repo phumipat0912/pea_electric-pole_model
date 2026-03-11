@@ -3,5 +3,7 @@ runs/
 __pycache__/
 *.pyc
 *.pt
+*.csv
 อุปกรณ์เสาไฟฟ้า-1/
 datasets/
+*.jpg

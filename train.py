@@ -7,14 +7,14 @@ def main():
     
     rf = Roboflow(api_key="Blp44Q5g6Mli0elMU5My")
     project = rf.workspace("ag-tech-ai").project("-ltldn")
-    dataset = project.version(1).download("yolov11") # หรือ yolov8 ตามที่ระบบ Roboflow export ให้
+    dataset = project.version(1).download("yolov11")
     
     print(f"\nดาวน์โหลดสำเร็จ! ข้อมูลถูกเก็บไว้ที่: {dataset.location}")
 
     print("\n--- 2. กำลังเริ่มต้นเทรนโมเดล YOLO11 ---")
     
     # โหลดโมเดล YOLO11 ขนาด Nano (yolo11n.pt) 
-    # ทันทีที่รัน โค้ดจะไปดาวน์โหลดไฟล์ yolo11n.pt มาให้โดยอัตโนมัติครับ
+    # ทันทีที่รัน โค้ดจะไปดาวน์โหลดไฟล์ yolo11n.pt 
     model = YOLO('yolo11n.pt') 
 
     # ชี้เป้าหมายไปที่ไฟล์ data.yaml ที่ดาวน์โหลดมา
